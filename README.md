@@ -9,7 +9,8 @@ Each image is annotated with bounding boxes to indicate the pineapple's location
 ## Training Process
 Training was conducted using **Detectron2** and **X101-FPN** as a pretrained base.  
 The training process closely follows the official Detectron2 guide with minor modifications.  
-The model was trained for 3000 iterations over the course of 10-15 minutes.
+The model was trained for 3000 iterations over the course of 10-15 minutes. 
+Since the dataset is relatively small, I've included it in the GitHub repo.
 
 ## Results
 The model performs well overall, but it's not perfect. It sometimes misses pineapples or detects non-pineapple objects. This is likely due to the limited size of the dataset and the high variance in how pineapples appear across different images.
