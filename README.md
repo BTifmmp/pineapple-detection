@@ -12,7 +12,7 @@ The training process closely follows the official Detectron2 guide with minor mo
 The model was trained for 3000 iterations over the course of 10-15 minutes.
 
 ## Results
-The model is good, not perfect tho, it doesnt detect all pineapples and sometimes it detect non-pineapples, it is probably caused by small dataset and high variance of pineapples
+The model performs well overall, but it's not perfect. It sometimes misses pineapples or detects non-pineapple objects. This is likely due to the limited size of the dataset and the high variance in how pineapples appear across different images.
 | | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="500" alt="screen shot 2017-08-07 at 12 18 15 pm" src="results\image1.jpg?raw=true">|<img width="500" alt="screen shot 2017-08-07 at 12 18 15 pm" src="results\image2.jpg?raw=true">|<img width="500" alt="screen shot 2017-08-07 at 12 18 15 pm" src="results\image3.jpg?raw=true">|<img width="500" alt="screen shot 2017-08-07 at 12 18 15 pm" src="results\image4.jpg?raw=true">|
