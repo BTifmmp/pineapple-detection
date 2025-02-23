@@ -7,7 +7,7 @@ The validation set contains 4 images.
 Each image is annotated with bounding boxes to indicate the pineapple's location.
 
 ## Training Process
-Training was conducted using **Detectron2** with an **X101-FPN** backbone pre-trained on COCO.  
+Training was conducted using **Detectron2** and **X101-FPN** as a pretrained base.  
 The training process closely follows the official Detectron2 guide with minor modifications.  
 The model was trained for 3000 iterations over the course of 10-15 minutes.
 
